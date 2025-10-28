@@ -1,4 +1,4 @@
-import "./Portfolio.css";
+import "./portfolio.css";
 import cabin from "../../../assets/images/cabin.png";
 import cake from "../../../assets/images/cake.png";
 import circus from "../../../assets/images/circus.png";
