@@ -6,11 +6,12 @@ import Hero from './assets/component/Hero/hero'
 import Portfolio from './assets/component/portfolio/portfolio'
 import About from './assets/component/About/About'
 import Contact from './assets/component/Contact/Contact'
+import Footer from './assets/component/Footer/Fotter'
 import './App.css'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
     <Portfolio />
     <About />
     <Contact />
+    <Footer  />
     </>
   )
 }
