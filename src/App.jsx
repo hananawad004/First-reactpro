@@ -5,7 +5,9 @@ import Navbar from './assets/component/Navbar/navbar'
 import Hero from './assets/component/Hero/hero'
 import Portfolio from './assets/component/portfolio/portfolio'
 import About from './assets/component/About/About'
+import Contact from './assets/component/Contact/Contact'
 import './App.css'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +18,7 @@ function App() {
     <Hero  />
     <Portfolio />
     <About />
+    <Contact />
     </>
   )
 }
