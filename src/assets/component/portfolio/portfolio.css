@@ -1,0 +1,47 @@
+.portfolio {
+  padding: 6rem 0;
+}
+
+.portfolio-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.portfolio-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.portfolio-divider .line {
+  width: 100px;
+  height: 4px;
+  background-color: #2c3e50;
+  margin: 0 10px;
+  border-radius: 2px;
+}
+
+.portfolio-divider .star {
+  color: #2c3e50;
+  font-size: 1.5rem;
+}
+
+.portfolio-item {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}

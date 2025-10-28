@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Navbar from './assets/component/Navbar/navbar'
 import Hero from './assets/component/Hero/hero'
+import Portfolio from './assets/component/portfolio/portfolio'
 import './App.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <>
      <Navbar />
     <Hero  />
+    <Portfolio />
     </>
   )
 }
