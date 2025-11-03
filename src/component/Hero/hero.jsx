@@ -1,5 +1,5 @@
 import "./hero.css";
-import avatar from "../../../assets/images/avatars.svg";
+import avatar from "./../../assets/images/avatars.svg";
 
 function Hero() {
   return (

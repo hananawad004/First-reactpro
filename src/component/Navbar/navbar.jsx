@@ -1,12 +1,13 @@
 import "./navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav className="navbar mainNav navbar-expand-lg navbar-dark fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="#page-top">
+        <Link className="navbar-brand" to="/">
           START BOOTSTRAP
-        </a>
+        </Link>
 
         <button
           className="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
@@ -24,19 +25,19 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item mx-0 mx-lg-1">
-              <a className="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">
+              <Link className="nav-link py-3 px-0 px-lg-3 rounded" to="/portfolio">
                 Portfolio
-              </a>
+              </Link>
             </li>
             <li className="nav-item mx-0 mx-lg-1">
-              <a className="nav-link py-3 px-0 px-lg-3 rounded" href="#about">
+              <Link className="nav-link py-3 px-0 px-lg-3 rounded" to="/about">
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item mx-0 mx-lg-1">
-              <a className="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">
+              <Link className="nav-link py-3 px-0 px-lg-3 rounded" to="/contact">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

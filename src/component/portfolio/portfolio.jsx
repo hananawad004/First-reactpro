@@ -1,10 +1,11 @@
 import "./portfolio.css";
-import cabin from "../../../assets/images/cabin.png";
-import cake from "../../../assets/images/cake.png";
-import circus from "../../../assets/images/circus.png";
-import game from "../../../assets/images/game.png";
-import safe from "../../../assets/images/safe.png";
-import submarine from "../../../assets/images/submarine.png";
+import cabin from "../../assets/images/cabin.png";
+import cake from "../../assets/images/cake.png";
+import circus from "../../assets/images/circus.png";
+import game from "../../assets/images/game.png";
+import safe from "../../assets/images/safe.png";
+import submarine from "../../assets/images/submarine.png";
+
 
 function Portfolio() {
   return (

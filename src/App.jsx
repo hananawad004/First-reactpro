@@ -1,12 +1,13 @@
 import { useState } from 'react'
+import { Routes, Route } from "react-router-dom";
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import Navbar from './assets/component/Navbar/navbar'
-import Hero from './assets/component/Hero/hero'
-import Portfolio from './assets/component/portfolio/portfolio'
-import About from './assets/component/About/About'
-import Contact from './assets/component/Contact/Contact'
-import Footer from './assets/component/Footer/Fotter'
+import Navbar from './component/Navbar/navbar'
+import Hero from './component/Hero/hero'
+import Portfolio from './component/portfolio/portfolio'
+import About from './component/About/About'
+import Contact from './component/Contact/Contact'
+import Footer from './component/Footer/Fotter'
 import './App.css'
 
 
@@ -15,13 +16,16 @@ function App() {
 
   return (
     <>
-     <Navbar />
-    <Hero  />
-    <Portfolio />
-    <About />
-    <Contact />
-    <Footer  />
+       <Navbar />
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+      </Routes>
+      <Footer />
     </>
+   
   )
 }
 
